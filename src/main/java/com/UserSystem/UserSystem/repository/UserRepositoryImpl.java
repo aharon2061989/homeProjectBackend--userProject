@@ -57,6 +57,7 @@ public class UserRepositoryImpl implements UserRepository{
 
     }
 
+
     @Override
     public User getUserById(Long id) throws JsonProcessingException {
         String sql = "SELECT * FROM " + USER_TABLE_NAME + " WHERE id=?";
